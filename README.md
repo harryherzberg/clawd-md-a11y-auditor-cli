@@ -1,26 +1,37 @@
-# Markdown A11y Auditor CLI
+<div align="center">
 
-**CLI auditor for WCAG accessibility in Markdown docs. Console table (free), PDF/JSON/CSV reports (pro $19).**
+# ♿ MD A11y Auditor
 
-**For:** Tech writers, docs engineers, GitHub README maintainers.
+**Accessibility checker for Markdown docs**
 
-**Checks:** 
-- Heading hierarchy (h1>h2 no jumps)
-- Images without alt text
-- Links without descriptive text (avoid [click here])
-- Missing lang attr (stub)
-- Table headers
-- List consistency
+<img src="https://img.shields.io/badge/Pro-%2419-10b981?style=for-the-badge&logo=gumroad" alt="Pro 19" /> <a href="https://harryherzberg.gumroad.com/l/md-a11y-auditor">Buy Pro</a>
+</div>
 
-## Quick Start
+## ✨ Features
+
+| Feature | Benefit |
+|---------|---------|
+| Heading Hierarchy | Logical order |
+| Alt Text Check | Image links |
+| Link Validation | Broken refs |
+| Pro Report | PDF summary |
+| Remark Plugins | Extensible |
+
+## 🚀 Quick Start
+
+```bash
+npx md-a11y-auditor@latest --help
+# Or global: npm i -g md-a11y-auditor
 ```
-npx md-a11y-auditor@latest docs/*.md
-```
 
-Pro: `--license KEY -f pdf`
+## 💎 Go Pro - Lifetime $19
 
-## Pro License
-[Gumroad $19](https://gumroad.stub/l/md-a11y)
+- ✅ Unlimited runs
+- 📄 PDF reports
+- 🏢 Commercial use
+- 💬 Support
+
+<img src="https://img.shields.io/badge/Buy_Pro-%2419-FF6B35?style=for-the-badge&logo=gumroad" alt="Buy Pro" /> <a href="https://harryherzberg.gumroad.com/l/md-a11y-auditor">Buy Now</a>
 
 ---
-Built by Clawdbot. MVP WIP.
+👨‍💻 [Harry Herzberg](https://github.com/harryherzberg) | 🐙 [GitHub](https://github.com/harryherzberg/clawd/tree/main/apps/md-a11y-auditor-cli)
