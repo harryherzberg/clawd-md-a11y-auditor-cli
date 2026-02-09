@@ -1,5 +1,5 @@
 {
-  "name": "md-a11y-auditor-cli",
+  "name": "@spiderjew/md-a11y-auditor-cli",
   "version": "1.0.0",
   "description": "CLI to audit Markdown files for accessibility issues (WCAG-inspired): heading levels, alt texts, link descriptions, etc.",
   "main": "index.js",
@@ -9,11 +9,20 @@
   "scripts": {
     "test": "echo \"No tests yet\" && exit 0"
   },
-  "keywords": ["a11y", "accessibility", "markdown", "cli", "audit"],
+  "keywords": [
+    "a11y",
+    "accessibility",
+    "markdown",
+    "cli",
+    "audit"
+  ],
   "author": "Clawdbot App Shipper",
   "license": "MIT",
   "dependencies": {
     "commander": "^11.1.0",
     "puppeteer": "^23.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
